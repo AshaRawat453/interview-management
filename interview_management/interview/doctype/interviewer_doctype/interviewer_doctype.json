@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2024-09-12 23:44:31.657564",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "phone_number",
+  "position",
+  "column_break_etgm",
+  "select_eawi",
+  "address"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone number"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "position"
+  },
+  {
+   "fieldname": "select_eawi",
+   "fieldtype": "Select",
+   "label": "Department",
+   "options": "HR Department\nRecruitment Team\nTalent Acquisition\nHiring Department\nInterview Panel"
+  },
+  {
+   "fieldname": "column_break_etgm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-13 17:02:41.015106",
+ "modified_by": "Administrator",
+ "module": "interview",
+ "name": "Interviewer doctype",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

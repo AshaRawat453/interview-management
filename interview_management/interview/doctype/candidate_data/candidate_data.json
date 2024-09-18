@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2024-09-10 22:37:04.184405",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "fill_these_details_section",
+  "name1",
+  "experience",
+  "email",
+  "skills",
+  "column_break_hnmj",
+  "applied_role",
+  "location",
+  "phone_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "fill_these_details_section",
+   "fieldtype": "Section Break",
+   "label": "Fill These Details"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "experience",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "label": "Experience"
+  },
+  {
+   "fieldname": "applied_role",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "label": "Applied Role",
+   "options": "Frontend Developer\nBackend Developer\nTester\nMachine Learning Engineer\nFull Stack Developer\nSoftware Engineer\nDevOps Engineer\nProduct Manager\nUI/UX Designer\nSystem Administrator\nMobile App Developer"
+  },
+  {
+   "fieldname": "skills",
+   "fieldtype": "Small Text",
+   "label": "Skills"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "column_break_hnmj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Small Text",
+   "label": "Location"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-17 23:10:20.560222",
+ "modified_by": "Administrator",
+ "module": "interview",
+ "name": "Candidate Data",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
