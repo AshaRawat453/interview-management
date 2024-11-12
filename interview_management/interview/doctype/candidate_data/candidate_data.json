@@ -32,12 +32,16 @@
    "fieldname": "experience",
    "fieldtype": "Data",
    "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Experience"
   },
   {
    "fieldname": "applied_role",
    "fieldtype": "Select",
    "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Applied Role",
    "options": "Frontend Developer\nBackend Developer\nTester\nMachine Learning Engineer\nFull Stack Developer\nSoftware Engineer\nDevOps Engineer\nProduct Manager\nUI/UX Designer\nSystem Administrator\nMobile App Developer"
   },
@@ -68,7 +72,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-17 23:10:20.560222",
+ "modified": "2024-09-18 19:28:36.171875",
  "modified_by": "Administrator",
  "module": "interview",
  "name": "Candidate Data",
